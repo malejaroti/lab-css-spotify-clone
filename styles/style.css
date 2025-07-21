@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Montserrat:100,300,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:wght@100,200,300,400,500,600&display=swap');
 
 * {
   margin: 0;
@@ -11,22 +11,13 @@ html, body {
   color: #FFF;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat, sans-serif;
-}
-
 h2{
-    font-size: 40px;
-    font-weight: 650;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 h3{
-    font-size: 40px;
-    font-weight: 650;
-}
-
-h4{
-    font-size: 35px;
+    font-size: 27px;
 }
 
 hr{
@@ -39,7 +30,7 @@ hr{
 .navbar{
     position:fixed;
     width: 100%;
-    height: 115px;
+    height: 90px;
     display: flex;
     background-color: #FFF;
     justify-content: space-between;
@@ -50,7 +41,7 @@ hr{
 }
 
 .navbar img {
-    height: 5em;
+    height: 4em;
     /* border: 1px solid black; */
     margin-left: 50px;
     
@@ -67,7 +58,7 @@ hr{
 }
 
 .nav-links li {
-    font-size: 24px;
+    font-size: 18px;
     list-style-type: none;
     text-align: center;
 }
@@ -75,8 +66,8 @@ hr{
 .hero{
     /* border: 5px solid aquamarine; */
     background-image: url("../images/landing.jpg");
-    height: 1200px;
-    /* height: 100vh; */
+    /* height: 1200px; */
+    height: 130vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,17 +78,17 @@ hr{
 }
 
 header h1 {
-  font-size: 90px;
+  font-size: 70px;
   font-weight: 600;
   margin-top: 20px;
   /* border: 1px solid #FFF; */
 }
 
 header p {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 300;
-  line-height: 1.6;
-  margin-top: 20px;
+  line-height: 1.4;
+  margin-top: 30px;
   transform: scaleY(1.1);
 }
 
@@ -110,7 +101,7 @@ header p {
     margin-top: 30px;
 }
 
-#spotify-content h3{
+#spotify-content h2{
     color:#1a1a1a;
     text-align: center;
     transform: scaleY(1.1);
@@ -128,7 +119,7 @@ header p {
     flex-direction: row;
     place-content: center space-evenly;
     align-items: center;
-    height: 400px;
+    height: 350px;
     margin-top: 30px;
     /* border: 5px solid orange; */
 }
@@ -143,30 +134,28 @@ header p {
 }
 
 #spotify-content div article img{
-    height: 130px;
-    width: 150px;
+    height: 98px;
+    width: 113px;
     margin-top: 20px;
     /* border: 2px solid purple; */
 }
 
-#spotify-content div article h4{
+#spotify-content div article h3{
     text-align: center;
     color:#00B172;
     margin-top: 15px;
 }
 
 .text{
-    font-size: 25px;
+    font-size: 19px;
     font-weight: 300;
 }
 
 #spotify-content  > div > article > p{
-    /* border: 2px solid brown; */
     text-align: center;
-    /* text-wrap: balance; */
     max-width: 300px;
     margin-top: 30px;
-    /* margin-bottom:10px ; */
+    /* border: 2px solid brown; */
 }
 
 #spotify-functions{
@@ -178,6 +167,7 @@ header p {
     justify-content: space-between;
     align-items: center;
     background-color: #00B172;
+    /* border: 2px solid brown; */
 }
 
 .left-block{
@@ -192,7 +182,7 @@ header p {
 .header-underlined{
     display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     /* border:1px solid black; */
 }
 
@@ -200,13 +190,15 @@ header p {
     background-color: #FFF;
     width: 100%;
 }
+
 #spotify-functions div article {
+    margin-bottom: 10px;
     /* border:1px solid violet; */
-    margin-bottom: 20px;
 }
 
-#spotify-functions div article h4{
-    margin: 25px 0;
+#spotify-functions div article h3{
+    padding: 25px 0;
+    /* border:1px solid black; */
 }
 
 #spotify-functions div article p{
@@ -214,23 +206,23 @@ header p {
     display: flex;
     flex-direction: row;
     background-color: #00B172;
-    width: 410px;
+    width: 350px;
     line-height: 1.5; 
 }
 
 .image-spotify-app {
-    /* position:absolute;
-    top: 15%;  
-    left: 30%;  */
-    margin-top: 60px;
-    width: 450px;
-    height: 750px;
+    position:absolute;
+    right: 80px; 
+    top: 100px;
+    width: 330px;
+    height: 563px;
+    border: 1px solid black;
 }
 
 .image-spotify-white-icon{
     position:absolute;
     top: 43%;     
-    left: 42%; 
-    width: 170px;
-    height: 170px;
+    left: 45%; 
+    width: 120px;
+    height: 120px;
 }
